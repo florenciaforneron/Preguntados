@@ -9,10 +9,7 @@ class homeModel {
 
 
    public function list($filter = "") {
-        $usuarios = $this->database->query("SELECT * FROM `usuario` WHERE id LIKE '%$filter%'");
         $result = array();
-        Logger::info("Pokemons: " . json_encode($result));
-
         return $result;
     }
 

@@ -29,6 +29,8 @@ class homeController {
     }
 
     public function procesarAlta(){
+
+
         if( empty($_POST['contrasenia'] ) || empty($_POST['usuario'] )  ){
             $_SESSION["error"] = "Alguno de los campos era erroneo o vacio";
             Redirect::to('/home/alta');
