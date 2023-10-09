@@ -6,8 +6,8 @@ include_once("helper/Router.php");
 include_once("helper/Logger.php");
 include_once('helper/Redirect.php');
 
-include_once('controller/PreguntadosController.php');
-include_once("model/PreguntadosModel.php");
+include_once('controller/homeController.php');
+include_once("model/homeModel.php");
 
 include_once('third-party/mustache/src/Mustache/Autoloader.php');
 
@@ -32,12 +32,12 @@ class Configuracion {
     }
 
 
-    public function getPreguntadosController() {
-        $model = new PreguntadosModel($this->getDatabase());
-        return new PreguntadosController($this->getRender(), $model);
+    public function getHomeController() {
+        $model = new homeModel($this->getDatabase());
+        return new homeController($this->getRender(), $model);
     }
 
     public function getRouter() {
-        return new Router($this,"getPreguntadosController","list");
+        return new Router($this,"getHomeController","list");
     }
 }
