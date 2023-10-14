@@ -9,10 +9,7 @@ class homeModel {
 
 
    public function list($filter = "") {
-        $usuarios = $this->database->query("SELECT * FROM `usuario` WHERE id LIKE '%$filter%'");
         $result = array();
-        Logger::info("Pokemons: " . json_encode($result));
-
         return $result;
     }
 
@@ -22,5 +19,22 @@ class homeModel {
 
         $this->database->query($sql);
     }
+
+    public function login($usuario, $contrasenia){
+        $sql = "SELECT * FROM 'usuario' WHERE 'nombre_usuario' = '$usuario' AND 'contrasenia' = '$contrasenia'";
+        Logger::info('Usuarios que coinciden: '. $sql);
+
+
+        $this->database->query($sql);
+
+
+    }
+
+    public function usuarioPorNombreYContrasenia($user, $pass)
+    {
+        return $this->database->query("SELECT * FROM usuario WHERE nombre_usuario = '$user' and contrasenia = '$pass'");
+    }
+
+
 
 }

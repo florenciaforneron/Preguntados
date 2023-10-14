@@ -8,17 +8,20 @@
 <body>
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.php"><img src="imagenes/logo.png"></a>
+        <a class="navbar-brand" href="/"><img src="imagenes/logo.png"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">GRUPO N°11</a>
+                    <a class="nav-link" href="/">GRUPO N°11</a>
                 </li>
             </ul>
-            <form action="loginPokedex.php" method="post">
+
+
+
+            <form action="/home/login" method="post" id="form-login">
                 <div class="row">
                     <div class="col">
                         <input type="text" class="form-control" placeholder="Ingrese Usuario" id="usuario" name="usuario">
@@ -27,12 +30,19 @@
                         <input type="password" class="form-control" placeholder="Enter password" id="password" name="password">
                     </div>
                     <div class="col">
-                        <input type="submit" class="btn btn-success" value="Ingresar"  >
+                        <input type="submit" class="btn btn-success" value="Ingresar">
                     </div>
                 </div>
             </form>
 
-            <form action="home/alta" method="post">
+            <div id="form-logout">
+                <p>{{#userName}}</p>
+                <form action="/home/logout">
+                    <input type="submit" class="btn btn-success" value="Salir">
+                </form>
+            </div>
+
+            <form action="/home/alta" method="post">
                 <div class="row">
                     <div class="col">
                         <input type="submit" class="btn btn-primary" value="Registrarse"  >

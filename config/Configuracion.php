@@ -5,6 +5,7 @@ include_once('helper/MustacheRender.php');
 include_once("helper/Router.php");
 include_once("helper/Logger.php");
 include_once('helper/Redirect.php');
+include_once ('helper/SessionManager.php');
 
 include_once('controller/homeController.php');
 include_once("model/homeModel.php");
@@ -31,10 +32,14 @@ class Configuracion {
         return new MustacheRender();
     }
 
+    public function getSessionManager(){
+        return new SessionManager();
+    }
+
 
     public function getHomeController() {
         $model = new homeModel($this->getDatabase());
-        return new homeController($this->getRender(), $model);
+        return new homeController($this->getRender(), $model, $this->getSessionManager());
     }
 
     public function getRouter() {
