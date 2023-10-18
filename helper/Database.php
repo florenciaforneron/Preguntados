@@ -16,7 +16,7 @@ class Database {
         mysqli_close($this->conn);
     }
 
-    public function query($sql) {
+    public function query($sql){
         Logger::info("Ejecutando Query $sql ");
         $result = mysqli_query($this->conn, $sql);
 

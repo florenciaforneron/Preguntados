@@ -5,9 +5,14 @@ include_once('helper/MustacheRender.php');
 include_once("helper/Router.php");
 include_once("helper/Logger.php");
 include_once('helper/Redirect.php');
+include_once ('helper/SessionManager.php');
 
+
+include_once ('controller/lobbyController.php');
 include_once('controller/homeController.php');
+
 include_once("model/homeModel.php");
+include_once("model/lobbyModel.php");
 
 include_once('third-party/mustache/src/Mustache/Autoloader.php');
 
@@ -31,12 +36,15 @@ class Configuracion {
         return new MustacheRender();
     }
 
-
     public function getHomeController() {
         $model = new homeModel($this->getDatabase());
         return new homeController($this->getRender(), $model);
     }
 
+    public function getLobbyController() {
+        $model = new lobbyModel($this->getDatabase());
+        return new lobbyController($this->getRender(), $model);
+    }
     public function getRouter() {
         return new Router($this,"getHomeController","list");
     }

@@ -7,12 +7,19 @@ class homeController {
     public function __construct($render, $model) {
         $this->render = $render;
         $this->model = $model;
+
     }
 
     public function list() {
-        $busqueda = $_GET['search'] ?? '';
-        $datos["pokemon"] = $this->model->list($busqueda);
-        $this->render->printView('home', $datos);
+        $this->startSession();
+    }
+
+    private function startSession(){
+        if( isset($_SESSION["usuario"]) )
+          Redirect::to("/lobby");
+
+        $data = [];
+        $this->render->printView('home', $data);
     }
 
     public function alta(){
@@ -43,6 +50,28 @@ class homeController {
         $this->model->alta($contrasenia, $usuario);
         Redirect::root();
     }
+    public function login(){
+
+        $usuario = $_POST['usuario'];
+        $contrasenia = $_POST['password'];
+        $usuarioConectado = $this->model->usuarioPorNombreYContrasenia($usuario, $contrasenia);
+
+        if(sizeof($usuarioConectado)==1 ){
+            $_SESSION["usuario"]=$usuario;
+            $data = [$usuario];
+            $this->render->printView('lobby', $data);
+            Redirect::to("/lobby");
+        }else Redirect::to("/home");
+    }
+    public function logout()
+    {
+        session_unset();
+        session_destroy();
+        header("Location: /home");
+        exit();
+    }
+
+
 
 
 
