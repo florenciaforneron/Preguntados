@@ -25,4 +25,14 @@ class Database {
         else
             return [];
     }
+    public function singleQuery($sql)
+    {
+        $result = mysqli_query($this->conn, $sql);
+        return mysqli_fetch_assoc($result);
+    }
+    public function update($sql)
+    {
+        $result = mysqli_query($this->conn, $sql);
+    }
+
 }

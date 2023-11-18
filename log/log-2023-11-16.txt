@@ -1,0 +1,132 @@
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es la montaña más alta del mundo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es el elemento químico más abundante en el universo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es el país más poblado del mundo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es el país más poblado del mundo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál propiedad CSS se utiliza para crear una sombra alrededor de un elemento?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es la montaña más alta del mundo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es la montaña más alta del mundo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es el país más poblado del mundo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es la montaña más alta del mundo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es el país más poblado del mundo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es el país más poblado del mundo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es el país más poblado del mundo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es el país más poblado del mundo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es la montaña más alta del mundo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '123' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es el país más poblado del mundo?' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-16][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 

@@ -3,18 +3,18 @@
 class homeController {
     private $render;
     private $model;
-    private $sessionManager;
 
-    public function __construct($render, $model, $sessionManager) {
+    public function __construct($render, $model) {
         $this->render = $render;
         $this->model = $model;
-        $this->sessionManager = $sessionManager;
+
     }
 
     public function list() {
-        $busqueda = $_GET['search'] ?? '';
-        $datos["pokemon"] = $this->model->list($busqueda);
-        $this->render->printView('home', $datos);
+        if(!isset($_SESSION["usuario"])) {
+            $data = [];
+            $this->render->printView('home', $data);
+        }
     }
 
     public function alta(){
@@ -32,7 +32,6 @@ class homeController {
 
     public function procesarAlta(){
 
-
         if( empty($_POST['contrasenia'] ) || empty($_POST['usuario'] )  ){
             $_SESSION["error"] = "Alguno de los campos era erroneo o vacio";
             Redirect::to('/home/alta');
@@ -48,44 +47,25 @@ class homeController {
 
     public function login(){
 
-        if ($this->sessionManager->get('idUser') == null){
-            $usuario = $_POST['usuario'];
-            $contrasenia = $_POST['password'];
+        $usuario = $_POST['usuario'];
+        $contrasenia = $_POST['password'];
+        $usuarioConectado = $this->model->usuarioPorNombreYContrasenia($usuario, $contrasenia);
 
-            $usuarioConectado = $this->model->usuarioPorNombreYContrasenia($usuario, $contrasenia);
 
-            if(sizeof($usuarioConectado) == 1){
-                $this->setSesionUsuario($usuarioConectado);
+        if(sizeof($usuarioConectado)==1){
+            $idRol = $this->model->getIdRolPorUsuario($usuario);
+            $_SESSION["usuario"]=$usuario;
+            $_SESSION["idRol"]=$idRol;
+            Redirect::to("/lobby");
 
-                Redirect::root();
-            }
-
-        }
-
-    }
-
-    public function setSesionUsuario($usuario){
-        $this->sessionManager->set("nombreUsuario", $usuario[0]['nombre_usuario']);
-        //$this->sessionManager->set("idUsuario", $usuario[0]['id_usuario']);
+        }else Redirect::to("/home");
     }
 
     public function logout()
     {
-
-        $this->sessionManager->destroy();
+        session_unset();
+        session_destroy();
         header("Location: /home");
         exit();
     }
-
-    public function displays(){
-
-    }
-
-
-
-
-
-
-
-
 }

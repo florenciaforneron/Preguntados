@@ -1,0 +1,40 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="card col-md-6 container text-center mt-5 mb-5">
+        <div class="card-header">
+            Informacion del usuario
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                {{#infoUsuario}}
+                    <h4>Nombre del Usuario: {{nombre_usuario}}</h4>
+                    <h4>Puntos maximo alcanzado: {{puntaje_max}}</h4>
+                {{/infoUsuario}}
+            </blockquote>
+        </div>
+    </div>
+
+    <div class="card col-md-6 container text-center mt-5 mb-5">
+        <div class="card-header">
+            Cantidad de partidas jugadas
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                {{#infoTotalDePartidasJugadas}}
+                    <h4>Aca va el total de partidas jugadas: definir donde poner la info de partidas jugadas {{totalDeFilas}}</h4>
+                {{/infoTotalDePartidasJugadas}}
+            </blockquote>
+        </div>
+    </div>
+
+</body>
+</html>
+

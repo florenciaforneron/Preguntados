@@ -1,0 +1,15 @@
+[2023-11-07][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' and contrasenia = '123' 
+[2023-11-07][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-07][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-07][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' and contrasenia = '456789' 
+[2023-11-07][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-07][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-07][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-07][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-07][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-07][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-07][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-07][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' and contrasenia = '223' 
+[2023-11-07][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' and contrasenia = '123' 
+[2023-11-07][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-07][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 

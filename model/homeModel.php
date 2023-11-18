@@ -8,7 +8,7 @@ class homeModel {
     }
 
 
-   public function list($filter = "") {
+    public function list($filter = "") {
         $result = array();
         return $result;
     }
@@ -33,6 +33,12 @@ class homeModel {
     public function usuarioPorNombreYContrasenia($user, $pass)
     {
         return $this->database->query("SELECT * FROM usuario WHERE nombre_usuario = '$user' and contrasenia = '$pass'");
+    }
+
+    public function getIdRolPorUsuario($user){
+       $query = "SELECT id_rol FROM usuario where nombre_usuario = '$user'" ;
+       $result = $this->database->singleQuery($query);
+       return $result['id_rol'];
     }
 
 

@@ -5,10 +5,21 @@ include_once('helper/MustacheRender.php');
 include_once("helper/Router.php");
 include_once("helper/Logger.php");
 include_once('helper/Redirect.php');
-include_once ('helper/SessionManager.php');
 
+
+include_once ('controller/lobbyController.php');
 include_once('controller/homeController.php');
+include_once('controller/partidaController.php');
+include_once('controller/userController.php');
+include_once('controller/editorController.php');
+include_once('controller/sugerirPreguntaController.php');
+
 include_once("model/homeModel.php");
+include_once("model/lobbyModel.php");
+include_once("model/partidaModel.php");
+include_once("model/userModel.php");
+include_once("model/editorModel.php");
+include_once("model/preguntaModel.php");
 
 include_once('third-party/mustache/src/Mustache/Autoloader.php');
 
@@ -28,19 +39,39 @@ class Configuracion {
     }
 
     public function getRender() {
-        //return new Render("view/header.php", "view/footer.php");
         return new MustacheRender();
     }
 
-    public function getSessionManager(){
-        return new SessionManager();
-    }
-
-
     public function getHomeController() {
         $model = new homeModel($this->getDatabase());
-        return new homeController($this->getRender(), $model, $this->getSessionManager());
+        return new homeController($this->getRender(), $model);
     }
+
+    public function getLobbyController() {
+        $model = new lobbyModel($this->getDatabase());
+        return new lobbyController($this->getRender(), $model);
+    }
+
+    public function getPartidaController() {
+        $model = new partidaModel($this->getDatabase());
+        return new partidaController($this->getRender(), $model);
+    }
+
+    public function getUserController() {
+        $model = new userModel($this->getDatabase());
+        return new userController($this->getRender(), $model);
+    }
+
+    public function getEditorController() {
+        $model = new editorModel($this->getDatabase());
+        return new editorController($this->getRender(), $model);
+    }
+
+    public function getSugerirPreguntaController(){
+        $model = new preguntaModel($this->getDatabase());
+        return new sugerirPreguntaController($this->getRender(), $model);
+    }
+
 
     public function getRouter() {
         return new Router($this,"getHomeController","list");

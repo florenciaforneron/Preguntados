@@ -1,0 +1,108 @@
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' and contrasenia = '123' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM partida WHERE puntaje = (SELECT MAX(puntaje) FROM partida) 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' and contrasenia = '456789' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM partida WHERE puntaje = (SELECT MAX(puntaje) FROM partida) 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-04][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-04][INFO]Ejecutando Query SELECT puntaje_max FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM partida WHERE puntaje = (SELECT MAX(puntaje) FROM partida) 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-04][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 2, current_timestamp()); 
+[2023-11-04][INFO]Ejecutando Query SELECT puntaje_max FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query UPDATE `usuario` SET `puntaje_max` = 2 WHERE Id = 1 
+[2023-11-04][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM partida WHERE puntaje = (SELECT MAX(puntaje) FROM partida) 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM partida ORDER BY puntaje ASC  
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM partida ORDER BY puntaje DESC  
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM partida  GROUP BY id ORDER BY puntaje DESC   
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM partida  GROUP BY id ORDER BY puntaje DESC   
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query SELECT id, puntaje FROM partida  GROUP BY id ORDER BY puntaje DESC 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query SELECT *FROM partida ORDER BY puntaje DESC 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' and contrasenia = '123' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-04][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('2', 4, current_timestamp()); 
+[2023-11-04][INFO]Ejecutando Query SELECT puntaje_max FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query UPDATE `usuario` SET `puntaje_max` = 4 WHERE Id = 2 
+[2023-11-04][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-04][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('2', 3, current_timestamp()); 
+[2023-11-04][INFO]Ejecutando Query SELECT puntaje_max FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-04][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('2', 4, current_timestamp()); 
+[2023-11-04][INFO]Ejecutando Query SELECT puntaje_max FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-04][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('2', 4, current_timestamp()); 
+[2023-11-04][INFO]Ejecutando Query SELECT puntaje_max FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-04][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-04][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('2', 9, current_timestamp()); 
+[2023-11-04][INFO]Ejecutando Query SELECT puntaje_max FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query UPDATE `usuario` SET `puntaje_max` = 9 WHERE Id = 2 
+[2023-11-04][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'lucas' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' and contrasenia = '456789' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'emma' 
+[2023-11-04][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 

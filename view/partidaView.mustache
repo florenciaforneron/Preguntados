@@ -1,0 +1,46 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container text-center mt-5">
+            <h3>Responde:   </h3>
+            <p id="demo">
+            {{countdown}}
+            </p>
+            <script>
+                var countdown = document.getElementById("demo").innerHTML;
+                var x = setInterval(autoregressive, 1000);
+
+                function autoregressive() {
+                    if (countdown > 1) {
+                        countdown--;
+                        document.getElementById("demo").innerHTML = countdown;
+                    }else{
+                        clearInterval(x);
+                        window.location.href = '/partida/verificarRespuesta';
+                    }
+                }
+            </script>
+            {{#preguntas}}
+                <p>Descripcion: {{descripcion}}</p>
+                <form action="/partida/verificarRespuesta" method="POST">
+                    <input  value="{{id}}" id="id" name="id" class=". d-none">
+                    <input type="submit" class="btn btn-success" value="{{A}}" id="1" name="1">
+                    <input type="submit" class="btn btn-success" value="{{B}}" id="2" name="2">
+                </form>
+                <form action="/partida/reportarPregunta" method="post">
+                    <input  value="{{id}}" id="id" name="id" class=". d-none">
+                    <input type="submit" class="btn btn-success" value="REPORTAR PREGUNTA">
+                </form>
+            {{/preguntas}}
+
+
+    </div>
+</body>
+</html>
+
