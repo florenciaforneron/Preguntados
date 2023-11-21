@@ -1,0 +1,155 @@
+<main class="py-5">
+    <div class="content container px-lg-5 p-4 bg-light rounded-3">
+        <article class="mx-auto">
+            <br>
+            <div class="d-flex">
+                <h3 class="col-9">Preguntas
+                    {{#sugerida}}sugeridas por {{/sugerida}}
+                    {{#reportada}}reportadas por {{/reportada}}
+                    {{#editar}}aceptadas y disponibles en las partidas de los{{/editar}}
+                    jugadores</h3>
+            </div>
+
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Pregunta</th>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>Correcta</th>
+                    <th>Accion a realizar</th>
+                </tr>
+                </thead>
+
+                <tbody>
+
+                <!-- Preguntas sugeridas -->
+                {{#preguntasSugeridas}}
+                    <tr>
+                        <td>{{descripcion}}</td>
+                        <td>{{A}}</td>
+                        <td>{{B}}</td>
+                        <td>{{opcionCorrecta}}</td>
+                        <td>
+
+                            <form action="/pregunta/borrar" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="id" value="{{id}}">
+                                <button type="submit" name="action" value="borrar"
+                                        class="btn btn-primary">
+                                    <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                </button>
+                            </form>
+
+                            <form action="/editarPregunta" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="id" value="{{id}}">
+                                <button type="submit" name="action" value="editar" class="btn btn-primary">
+                                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                </button>
+                            </form>
+
+                            <form action="/pregunta/aceptar" method="post" enctype="multipart/form-data" >
+                                <input type="hidden" name="id" value="{{id}}">
+                                <button type="submit" name="action" value="accept" class="btn btn-primary">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                </button>
+                            </form>
+
+                        </td>
+                    </tr>
+                {{/preguntasSugeridas}}
+
+                <!-- Preguntas reportadas -->
+                {{#preguntasReportadas}}
+                    <tr>
+                        <td>{{descripcion}}</td>
+                        <td>{{A}}</td>
+                        <td>{{B}}</td>
+                        <td>{{opcionCorrecta}}</td>
+                        <td>
+
+                            <form action="/pregunta/borrar" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="id" value="{{id}}">
+                                <button type="submit" name="action" value="borrar"
+                                        class="btn btn-primary">
+                                    <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                </button>
+                            </form>
+
+                            <form action="/editarPregunta" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="id" value="{{id}}">
+                                <button type="submit" name="action" value="editar" class="btn btn-primary">
+                                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                </button>
+                            </form>
+
+                            <form action="/pregunta/aceptar" method="post" enctype="multipart/form-data" >
+                                <input type="hidden" name="id" value="{{id}}">
+                                <button type="submit" name="action" value="accept" class="btn btn-primary">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                </button>
+                            </form>
+
+                        </td>
+                    </tr>
+                {{/preguntasReportadas}}
+
+                <!-- Preguntas aceptadas -->
+                {{#preguntasAceptadas}}
+                    <tr>
+                        <td>{{descripcion}}</td>
+                        <td>{{A}}</td>
+                        <td>{{B}}</td>
+                        <td>{{opcionCorrecta}}</td>
+                        <td>
+
+                            <form action="/pregunta/borrar" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="id" value="{{id}}">
+                                <button type="submit" name="action" value="borrar"
+                                        class="btn btn-primary">
+                                    <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                </button>
+                            </form>
+
+                            <form action="/editarPregunta" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="id" value="{{id}}">
+                                <button type="submit" name="action" value="editar" class="btn btn-primary">
+                                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                </button>
+                            </form>
+
+                        </td>
+                    </tr>
+                {{/preguntasAceptadas}}
+
+                </tbody>
+            </table>
+
+
+            {{^preguntasSugeridas}}
+                {{#sugerida}}
+                    <p class="text-center fw-bold display-5"> No hay preguntas sugeridas en este momento</p>
+                {{/sugerida}}
+            {{/preguntasSugeridas}}
+
+            {{^preguntasReportadas}}
+                {{#reportada}}
+                    <p class="text-center fw-bold display-5"> No hay preguntas reportadas en este momento</p>
+                {{/reportada}}
+            {{/preguntasReportadas}}
+
+            {{^preguntasAceptadas}}
+                {{#editar}}
+                    <p class="text-center fw-bold display-5"> No hay preguntas disponibles en partidas en este
+                        momento</p>
+                {{/editar}}
+            {{/preguntasAceptadas}}
+
+        </article>
+
+        <div class="d-flex justify-content-center">
+            <br>
+            <a href="/lobby" class="btn btn-lg btn-primary m-3">Volver al lobby</a>
+        </div>
+
+    </div>
+</main>

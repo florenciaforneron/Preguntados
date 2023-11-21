@@ -1,6 +1,0 @@
-[2023-10-12][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `contrasenia`) VALUES ( '43053717', '1234');
-[2023-10-12][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `contrasenia`) VALUES ( '43053717', '1234'); 
-[2023-10-12][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `contrasenia`) VALUES ( '43053717', '123');
-[2023-10-12][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `contrasenia`) VALUES ( '43053717', '123'); 
-[2023-10-12][INFO]Usuarios que coinciden: SELECT * FROM 'usuario' WHERE nombre_usuario = '43053717' AND contrasenia = '123'
-[2023-10-12][INFO]Ejecutando Query SELECT * FROM 'usuario' WHERE nombre_usuario = '43053717' AND contrasenia = '123' 

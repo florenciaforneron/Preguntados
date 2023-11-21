@@ -13,8 +13,33 @@ class preguntaModel
         return $result;
     }
 
+    public function getPreguntasSugeridas(){
+        return $this->database->query("SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 1");
+    }
+
+    public function getPreguntasAceptadas(){
+        return $this->database->query("SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 2");
+    }
+
+    public function getPreguntasReportadas(){
+        return $this->database->query("SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 3");
+    }
+
     public function buscarPreguntaPorDescripcion($descripcion){
         return $this->database->query("SELECT * FROM pregunta WHERE descripcion = '$descripcion'");
+    }
+
+    public function buscarPreguntaPorId($id){
+        return $this->database->query("SELECT * FROM pregunta WHERE id = '$id'");
+    }
+
+    public function aceptarPregunta($id){
+        $this->database->update("UPDATE pregunta SET id_estado = 2 WHERE id = '$id'");
+    }
+
+    public function borrarPregunta($id){
+        $this->database->update("DELETE FROM respuesta WHERE id_pregunta = '$id'");
+        $this->database->update("DELETE FROM pregunta WHERE id = '$id'");
     }
 
     public function agregarPregunta($idRol, $descripcion, $opcionA, $opcionB, $respuestaCorrecta){

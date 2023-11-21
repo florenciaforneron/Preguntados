@@ -39,9 +39,7 @@ class sugerirPreguntaController
                 $this->render->printView('nuevaPreguntaSugerida');
             } else {
                 $this->render->printView('nuevaPreguntaAgregada');
-                //Redirect::to("/sugerirPregunta");
             }
-
 
         } else {
             Redirect::to("/lobby");
