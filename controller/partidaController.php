@@ -46,16 +46,19 @@ class partidaController{
         }
 
         $idPregunta=$_POST['id'];
-
         $respuestaCorrecta=$this->model->traerRespuestaCorrecta($idPregunta);
 
         if($respuestaSeleccionada==$respuestaCorrecta){
+            $this->model->sumarRespuestaCorrecta($idPregunta);
+
             if($this->verificarIdDePregunta($idPregunta)){
                 $this->cerrarPartida();
             }
+
             $_SESSION['puntaje']+=1;
             $this->siguientePregunta();
         }else {
+            $this->model->sumarRespuestaIncorrecta($idPregunta);
             $this->cerrarPartida();
         }
     }
@@ -63,7 +66,6 @@ class partidaController{
     public function verificarIdDePregunta($idPregunta){
         if ($_SESSION['idDePregunta']!=$idPregunta) {
             return true;
-            //$this->cerrarPartida();
         }else return false;
     }
 
