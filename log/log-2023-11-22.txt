@@ -1,0 +1,869 @@
+[2023-11-22][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 3, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 2, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='3'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='9'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='5'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='2'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='6'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='4'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='10'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='7'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='1'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='8'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.*, respuesta.A, respuesta.B
+                FROM pregunta JOIN respuesta ON pregunta.id = respuesta.id
+                WHERE pregunta.enviada = 0 AND pregunta.es_facil IS TRUE             
+                ORDER BY RAND() 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.*, respuesta.A, respuesta.B
+                FROM pregunta JOIN respuesta ON pregunta.id = respuesta.id
+                WHERE pregunta.enviada = 0 AND pregunta.es_facil IS TRUE             
+                ORDER BY RAND() 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 12, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.*, respuesta.A, respuesta.B
+                FROM pregunta JOIN respuesta ON pregunta.id = respuesta.id
+                WHERE pregunta.enviada = 0 AND pregunta.es_facil IS TRUE             
+                ORDER BY RAND() 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.*, respuesta.A, respuesta.B
+                FROM pregunta JOIN respuesta ON pregunta.id = respuesta.id
+                WHERE pregunta.enviada = 0 AND pregunta.es_facil IS TRUE             
+                ORDER BY RAND() 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.*, respuesta.A, respuesta.B
+                FROM pregunta JOIN respuesta ON pregunta.id = respuesta.id
+                WHERE pregunta.enviada = 0 AND pregunta.es_facil IS TRUE             
+                ORDER BY RAND() 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query UPDATE `pregunta` SET `enviada` = '0' WHERE id IN (SELECT id FROM pregunta where enviada = 1) 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.*, respuesta.A, respuesta.B
+                FROM pregunta JOIN respuesta ON pregunta.id = respuesta.id
+                WHERE pregunta.enviada = 0 AND pregunta.es_facil IS TRUE             
+                ORDER BY RAND() 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='1'  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='9'  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='4'  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='3'  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='6'  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='8'  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='2'  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='5'  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='10'  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='7'  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 5, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 10, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 5, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 7, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 5, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 2, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 2, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='8'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='4'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='1'  
+[2023-11-22][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='2'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='10'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='3'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='7'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='6'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='5'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id='9'  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT pregunta.veces_bien, pregunta.veces_mal FROM pregunta WHERE id=''  
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 11, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 9, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 1, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 10, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 10, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 10, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 10, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 4, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 12, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 10, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 1, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 11, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 10, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 8, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 2, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 3, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 6, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 5, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 5, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Manu' and contrasenia = '123456' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Manu' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Manu' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '7' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Manu' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Manu' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Manu' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Manu' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('3', 5, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Manu' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Manu' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Manu' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Manu' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Manu' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Manu' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('3', 5, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Manu' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 2, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 1, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 1, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 1, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '1' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', , current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '6' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 3, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '3' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '10' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '8' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 5, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id_estado from PREGUNTA WHERE id = '4' 
+[2023-11-22][INFO]Ejecutando Query UPDATE pregunta SET id_estado = 3 WHERE id = '4' 
+[2023-11-22][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-22][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-22][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-22][INFO]Ejecutando Query SELECT id_estado from PREGUNTA WHERE id = '2' 
+[2023-11-22][INFO]Ejecutando Query UPDATE pregunta SET id_estado = 3 WHERE id = '2' 

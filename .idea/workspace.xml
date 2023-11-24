@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="68d93f14-bb45-4c37-898a-2a9840d9cf66" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2WaiBQXQVb1sqcwKkD0u3kIQLVx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/view&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\view" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68d93f14-bb45-4c37-898a-2a9840d9cf66" name="Changes" comment="" />
+      <created>1696976961702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696976961702</updated>
+      <workItem from="1696976967798" duration="5229000" />
+      <workItem from="1697317676493" duration="7896000" />
+      <workItem from="1697499819282" duration="8757000" />
+      <workItem from="1697581020805" duration="9049000" />
+      <workItem from="1697672324229" duration="8037000" />
+      <workItem from="1698021631437" duration="10771000" />
+      <workItem from="1698117202131" duration="3842000" />
+      <workItem from="1698183426202" duration="15483000" />
+      <workItem from="1698199606444" duration="80000" />
+      <workItem from="1698359520317" duration="7865000" />
+      <workItem from="1698443854953" duration="9319000" />
+      <workItem from="1698622721820" duration="7193000" />
+      <workItem from="1698706578371" duration="2589000" />
+      <workItem from="1698711406751" duration="3234000" />
+      <workItem from="1698790643228" duration="8780000" />
+      <workItem from="1698878372981" duration="610000" />
+      <workItem from="1699305926074" duration="7391000" />
+      <workItem from="1699394398695" duration="10116000" />
+      <workItem from="1699567690070" duration="3115000" />
+      <workItem from="1699584653134" duration="1461000" />
+      <workItem from="1699650187660" duration="2219000" />
+      <workItem from="1699664552935" duration="829000" />
+      <workItem from="1699752770475" duration="2252000" />
+      <workItem from="1699914259119" duration="9183000" />
+      <workItem from="1700001500545" duration="11463000" />
+      <workItem from="1700167088406" duration="5464000" />
+      <workItem from="1700329499519" duration="650000" />
+      <workItem from="1700397633981" duration="960000" />
+      <workItem from="1700494369988" duration="1404000" />
+      <workItem from="1700532067411" duration="3282000" />
+      <workItem from="1700571494794" duration="14413000" />
+      <workItem from="1700598763317" duration="672000" />
+      <workItem from="1700615155208" duration="20054000" />
+      <workItem from="1700700540947" duration="3151000" />
+      <workItem from="1700761150872" duration="2856000" />
+      <workItem from="1700787356654" duration="1926000" />
+      <workItem from="1700834751773" duration="2215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

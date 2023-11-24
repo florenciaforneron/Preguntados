@@ -1,0 +1,826 @@
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE FALSE 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE FALSE 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE FALSE 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE FALSE 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE FALSE 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE FALSE 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE FALSE 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE FALSE 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE FALSE 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE FALSE 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE 'FALSE' 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE 'FALSE' 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE '0' 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE '0' 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE 0 
+[2023-10-24][INFO]Ejecutando Query SELECT FLOOR(RAND()*(1-6)+6) FROM pregunta WHERE enviada LIKE 0 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=RAND()*(1-6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=RAND()*(1-6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=RAND()*(1-6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=RAND()*(1-6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=RAND()*(1-6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=RAND()*(1-6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=RAND()*(1-6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=RAND()*(1-6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=RAND()*(1-6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=RAND()*(1-6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=RAND()*(1-6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=RAND()*(1-6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-6)+6) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(1-10)+10) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND()*(10-1)+1) 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * SELECT MAX(id) FROM pregunta) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * SELECT MAX(id) FROM pregunta) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * SELECT MAX(id) FROM pregunta) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * SELECT MAX(id) FROM pregunta) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * SELECT MAX(id) FROM pregunta) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * SELECT MAX(id) FROM pregunta) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 'SELECT MAX(id) FROM pregunta') + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query -1 
+[2023-10-24][INFO]Ejecutando Query -1 
+[2023-10-24][INFO]Ejecutando Query -1 
+[2023-10-24][INFO]Ejecutando Query -1 
+[2023-10-24][INFO]Ejecutando Query -1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=FLOOR(RAND() * 10) + 1 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 8200756791 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 12094903781 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 18568076411 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 20983137171 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 5131125691 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 20900057771 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 10061887961 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 8148987701 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 15326926231 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 19596396781 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 6982111101 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 19082281441 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 8251335381 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 6034838911 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 2593022981 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 19908487981 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 4011680021 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 14467134851 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 7394688951 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 8082214261 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 9344288601 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 20144316841 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 14478740551 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 20472866161 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 1798481371 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 6843782031 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 14891738041 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 1190670181 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 6845753501 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 1474103661 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 10033696821 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 14366100091 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 5539973831 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 9500957871 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 6373567641 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 3601369111 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 5351983301 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 13485742201 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 3687203661 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 14715333401 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 1637098511 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 20728065141 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 2489546791 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 4343892211 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 3880589881 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 10334952341 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 1417272491 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 12768135131 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 1641212941 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 1282180491 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 16270927701 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 15150310051 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 8588617301 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 3642699701 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 10001369141 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 18506176151 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 12290215331 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 9215200671 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 6008736621 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 256783861 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 258644461 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 14644294311 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 12094402521 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 4161408311 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 19078682021 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 17485083011 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 10518004581 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 3195699991 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 6776107491 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 2771155781 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 19983116891 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND 16864089841 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=1785693991 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=3922614651 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=12463731331 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=13372222251 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=625430781 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=20305344621 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=4262874321 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=17238100221 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=82022121 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id=7594396111 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id LIKE 9237013721 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id LIKE 9332136661 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id LIKE 17076105731 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id LIKE 11276446261 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id LIKE 10242693961 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id LIKE 216598001 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id LIKE 16138771331 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE 0 AND id LIKE 12771659601 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE false AND id LIKE 4602665541 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE false AND id LIKE 9421033871 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE false AND id LIKE 9210714461 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE false AND id LIKE 5518420431 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id LIKE 17824836151 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id LIKE 19151178401 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id LIKE 349427791 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada LIKE FALSE AND id LIKE 11376723981 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 2075441971 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 14808177531 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 162211811 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 19039047701 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 8740783001 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 12022982071 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 789873191 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 19969617121 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 11635759031 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 20808588371 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 745432441 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 10741307451 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 20939561831 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 14438655181 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 19343386631 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 4482824551 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 12114591951 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 18328073591 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 18929427901 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 18849360381 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 1220279811 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 2048569961 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 1333502591 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 3597394951 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 8968962671 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 7293124221 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 14805922881 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 11044640911 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 10426289371 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 5549988831 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 9889966371 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 20853564431 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 16100691201 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 13855230581 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 7599325761 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 17862051341 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 5213944901 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 19081994421 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 2591342271 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 12559529591 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 16655488921 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 15257301831 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 7149584171 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 15080274551 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 11046237281 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 15346819931 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '456789' 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 17270480941 LIMIT 1 
+[2023-10-24][INFO]Ejecutando Query SELECT * FROM pregunta WHERE enviada = 0 AND id = 18009094911 LIMIT 1 
