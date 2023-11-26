@@ -103,14 +103,14 @@ class partidaModel{
     public function traerPreguntaFacil(): string{
         return "SELECT pregunta.*, respuesta.A, respuesta.B, respuesta.C, respuesta.D
                 FROM pregunta JOIN respuesta ON pregunta.id = respuesta.id_pregunta
-                WHERE pregunta.enviada = 0 AND pregunta.es_facil=TRUE AND pregunta.id_estado=2 IS TRUE             
+                WHERE pregunta.enviada = 0 AND pregunta.es_facil=TRUE AND pregunta.id_estado=2             
                 ORDER BY RAND()";
     }
 
     public function traerPreguntaDificil(): string{
         return "SELECT pregunta.*, respuesta.A, respuesta.B, respuesta.C, respuesta.D
                 FROM pregunta JOIN respuesta ON pregunta.id = respuesta.id_pregunta
-                WHERE pregunta.enviada = 0 AND pregunta.es_facil=FALSE AND pregunta.id_estado=2 IS FALSE             
+                WHERE pregunta.enviada = 0 AND pregunta.es_facil=FALSE AND pregunta.id_estado=2            
                 ORDER BY RAND()";
     }
 
