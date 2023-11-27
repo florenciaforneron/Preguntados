@@ -23,7 +23,8 @@ class userController
         $usuario = $_POST['nombre_usuario'];
 
         $data=['infoUsuario'=>$this->model->datosDelUsuario($usuario),
-                'Foto_perfil'=>$this->model->getFotoPerfil($usuario)];
+                'Foto_perfil'=>$this->model->getFotoPerfil($usuario),
+                'infoTotalDePartidasJugadas'=>$this->model->getUltimasCincoPartidasJugadas($usuario)];
         $this->render->printView('user', $data);
     }
 

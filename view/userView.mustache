@@ -26,7 +26,7 @@
                     <h4>Edad: {{edad}}</h4>
                     <h4>Genero: {{genero}}</h4>
                     <h4>Pais: {{pais}}</h4>
-                    <h4>Puntos maximo alcanzado: {{puntaje_maximo}}</h4>
+                    <h4>Puntaje maximo: {{puntaje_maximo}}</h4>
                 {{/infoUsuario}}
             </blockquote>
         </div>
@@ -34,13 +34,29 @@
 
     <div class="card col-md-6 container text-center mt-5 mb-5">
         <div class="card-header">
-            Cantidad de partidas jugadas
+            <h4>Ultimas 5 partidas jugadas</h4>
         </div>
         <div class="card-body">
             <blockquote class="blockquote mb-0">
-                {{#infoTotalDePartidasJugadas}}
-                    <h4>Aca va el total de partidas jugadas: definir donde poner la info de partidas jugadas {{totalDeFilas}}</h4>
-                {{/infoTotalDePartidasJugadas}}
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Puntaje</th>
+                        <th>Fecha y hora</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {{#infoTotalDePartidasJugadas}}
+                        <tr>
+                            <td>{{puntaje}}</td>
+                            <td>{{fecha}}</td>
+                        </tr>
+                    {{/infoTotalDePartidasJugadas}}
+                    {{^infoTotalDePartidasJugadas}}
+                        <p class="text-center fw-bold display-5">No hay partidas jugadas</p>
+                    {{/infoTotalDePartidasJugadas}}
+                    </tbody>
+                </table>
             </blockquote>
         </div>
     </div>

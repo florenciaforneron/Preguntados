@@ -59,7 +59,13 @@ class partidaController{
             $this->siguientePregunta();
         }else {
             $this->model->sumarRespuestaIncorrectaPregunta($idPregunta);
+
+            if($this->model->getPuntajeMaxJugador($_SESSION["usuario"]) < $_SESSION['puntaje']){
+                $this->model->setPuntajeMaxJugador($_SESSION["usuario"], $_SESSION['puntaje']);
+            }
+
             $this->cerrarPartida();
+
         }
     }
 
@@ -89,7 +95,7 @@ class partidaController{
     public function reportarPregunta(){
         $idPreguntaReportada=$_POST['id'];
         if($this->model->reportarPregunta($idPreguntaReportada)){
-            $data=['msj'=>"Pregunta reportada, nuestros moderadores tendrán en cuenta ésto. ¡Gracias!"];
+            $data=['msj'=>"Pregunta reportada, nuestros moderadores tendrán en cuenta ésto y revisaran la pregunta. ¡Gracias!"];
         }else {
             $data=['msj'=>"Pregunta ya reportada con anterioridad, lo tendremos en cuenta"];
         }

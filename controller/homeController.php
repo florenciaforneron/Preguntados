@@ -74,6 +74,13 @@ class homeController {
             echo "Error al subir la imagen.";
         }
 
+        if($_SESSION['idRol'] == 0) {
+            $this->sendMail($mail, $usuario);
+        } else {
+            echo("poner algun error");
+        }
+
+
         $this->model->alta($contrasenia, $usuario, $mail, $nombreCompleto, $fecha_nacimiento, $nacionalidad, $sexo, $imagen);
 
 

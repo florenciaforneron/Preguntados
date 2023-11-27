@@ -23,14 +23,15 @@ class userModel
     }
 
     public function getFotoPerfil($usuario){
-        $result = $this->database->query("SELECT foto_perfil FROM usuario WHERE nombre_usuario = '$usuario'");
-        if (is_null($result) || empty($result)) {
-            return null;
-        }
-        return $result;
+        return $this->database->query("SELECT foto_perfil FROM usuario WHERE nombre_usuario = '$usuario'");
     }
 
-
+    public function getUltimasCincoPartidasJugadas($usuario){
+        $query = "SELECT p.puntaje, p.fecha 
+                    FROM partida AS p JOIN usuario AS u ON p.id_usuario=u.Id 
+                    WHERE u.nombre_usuario = '$usuario' ORDER BY p.fecha DESC LIMIT 5";
+        return $this->database->query($query);
+    }
 
     public function getIdUsuario($usuario){
         $sql="SELECT Id FROM usuario WHERE nombre_usuario = '$usuario'";

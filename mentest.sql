@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-11-2023 a las 10:38:19
+-- Tiempo de generación: 27-11-2023 a las 17:47:48
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -161,7 +161,12 @@ INSERT INTO `partida` (`id`, `id_usuario`, `puntaje`, `fecha`) VALUES
 (724, 1, 1, '2023-11-27 09:30:03'),
 (725, 1, 0, '2023-11-27 09:30:11'),
 (726, 1, 1, '2023-11-27 09:30:20'),
-(727, 1, 6, '2023-11-27 09:30:43');
+(727, 1, 6, '2023-11-27 09:30:43'),
+(728, 15, 6, '2023-11-27 15:53:58'),
+(729, 15, 3, '2023-11-27 16:19:36'),
+(730, 15, 2, '2023-11-27 16:34:55'),
+(731, 15, 3, '2023-11-27 16:35:05'),
+(732, 15, 6, '2023-11-27 16:35:34');
 
 -- --------------------------------------------------------
 
@@ -187,14 +192,14 @@ CREATE TABLE `pregunta` (
 
 INSERT INTO `pregunta` (`id`, `descripcion`, `enviada`, `id_estado`, `id_categoria_fk`, `veces_bien`, `veces_mal`, `es_facil`, `fecha_creacion`) VALUES
 (1, '¿Cuál es el océano más grande del mundo?', 0, 2, 1, 44, 8, 1, '2023-11-26'),
-(2, '¿Quién escribió \"Don Quijote de la Mancha\"?', 0, 3, 1, 45, 8, 1, '2023-11-26'),
+(2, '¿Quién escribió \"Don Quijote de la Mancha\"?', 0, 3, 1, 47, 8, 1, '2023-11-26'),
 (3, '¿Cuál es el símbolo químico del oro?', 0, 3, 1, 4, 10, 0, '2023-11-26'),
-(4, '¿En qué país se encuentra la Torre Eiffel?', 0, 3, 1, 35, 8, 1, '2023-11-26'),
-(5, '¿Cuál es el planeta más cercano al Sol?', 0, 3, 1, 44, 5, 1, '2023-11-26'),
+(4, '¿En qué país se encuentra la Torre Eiffel?', 0, 3, 1, 39, 9, 1, '2023-11-26'),
+(5, '¿Cuál es el planeta más cercano al Sol?', 0, 3, 1, 49, 5, 1, '2023-11-26'),
 (6, '¿En qué año se fundó la Organización de las Naciones Unidas (ONU)?', 0, 2, 1, 45, 6, 1, '2023-11-26'),
 (7, '¿Cuál es la capital de Australia?', 0, 2, 1, 36, 10, 1, '2023-11-26'),
 (8, '¿Cuál es la capital de Japón?', 0, 2, 1, 37, 5, 1, '2023-11-26'),
-(9, '¿Cuál es el símbolo químico del oxígeno?', 0, 3, 1, 54, 6, 1, '2023-11-26'),
+(9, '¿Cuál es el símbolo químico del oxígeno?', 0, 3, 1, 58, 6, 1, '2023-11-26'),
 (10, '¿Quién pintó la Mona Lisa?', 0, 2, 1, 41, 6, 1, '2023-11-26'),
 (44, '¿Qué significa PHP?', 0, 2, 2, 2, 0, 1, '2023-11-26'),
 (45, '¿Cuál es el operador utilizado para concatenar cadenas en PHP?', 0, 2, 2, 0, 0, 1, '2023-11-26'),
@@ -203,13 +208,13 @@ INSERT INTO `pregunta` (`id`, `descripcion`, `enviada`, `id_estado`, `id_categor
 (48, '¿Cuál es la función utilizada para obtener la longitud de una cadena en PHP?', 0, 2, 2, 0, 0, 1, '2023-11-26'),
 (49, '¿Cuál es el símbolo utilizado para acceder a propiedades de un objeto en PHP?', 0, 2, 2, 0, 0, 1, '2023-11-26'),
 (51, '¿Cuál es la función utilizada para obtener la fecha y hora actual en PHP?', 0, 3, 2, 0, 1, 0, '2023-11-26'),
-(52, '¿Cuál es la forma correcta de declarar una variable en PHP?', 0, 3, 2, 0, 0, 0, '2023-11-26'),
+(52, '¿Cuál es la forma correcta de declarar una variable en PHP?', 0, 3, 2, 0, 1, 0, '2023-11-26'),
 (53, '¿Cuál es la función utilizada para redirigir a otra página en PHP?', 0, 2, 2, 1, 0, 1, '2023-11-26'),
 (54, '¿Qué significa SQL?', 0, 3, 3, 3, 5, 0, '2023-11-26'),
-(55, '¿Cuál es el comando utilizado para crear una nueva tabla en MySQL?', 0, 3, 3, 2, 0, 1, '2023-11-26'),
+(55, '¿Cuál es el comando utilizado para crear una nueva tabla en MySQL?', 0, 3, 3, 5, 0, 1, '2023-11-26'),
 (56, '¿Cuál es el comando utilizado para insertar datos en una tabla en MySQL?', 0, 3, 3, 1, 0, 0, '2023-11-26'),
 (57, '¿Cuál es el operador utilizado para combinar múltiples condiciones en una consulta WHERE en MySQL?', 0, 2, 3, 1, 0, 1, '2023-11-26'),
-(58, '¿Cuál es la función utilizada para obtener el número de registros en una tabla en MySQL?', 0, 2, 3, 0, 0, 1, '2023-11-26'),
+(58, '¿Cuál es la función utilizada para obtener el número de registros en una tabla en MySQL?', 0, 2, 3, 0, 1, 0, '2023-11-26'),
 (59, '¿Cuál es el comando utilizado para eliminar una tabla en MySQL?', 0, 3, 3, 1, 1, 0, '2023-11-26'),
 (60, '¿Cuál es el comando utilizado para actualizar datos en una tabla en MySQL?', 0, 3, 3, 1, 0, 0, '2023-11-26'),
 (61, '¿Cuál es el tipo de dato utilizado para almacenar valores monetarios en MySQL?', 0, 3, 3, 0, 1, 0, '2023-11-26'),
@@ -227,9 +232,9 @@ INSERT INTO `pregunta` (`id`, `descripcion`, `enviada`, `id_estado`, `id_categor
 (75, '¿Cuál es la forma de aplicar estilos CSS?', 0, 2, 5, 0, 1, 1, '2023-11-26'),
 (76, '¿Cuál de los siguientes selectores CSS selecciona un elemento con el id \"myElement\"?', 0, 2, 5, 0, 0, 1, '2023-11-26'),
 (77, '¿Cuál de los siguientes selectores CSS selecciona todos los elementos <p> dentro de un <div>?', 0, 2, 5, 2, 0, 1, '2023-11-26'),
-(78, '¿Cuál de los siguientes valores representa el color blanco en RGB?', 0, 2, 5, 0, 0, 1, '2023-11-26'),
+(78, '¿Cuál de los siguientes valores representa el color blanco en RGB?', 0, 2, 5, 1, 0, 0, '2023-11-26'),
 (79, '¿Cuál propiedad CSS se utiliza para definir el tamaño de fuente?', 0, 2, 5, 0, 0, 1, '2023-11-26'),
-(80, '¿Cuál propiedad CSS se utiliza para aplicar un color de fondo a un elemento?', 0, 2, 5, 1, 1, 1, '2023-11-26'),
+(80, '¿Cuál propiedad CSS se utiliza para aplicar un color de fondo a un elemento?', 0, 2, 5, 2, 1, 0, '2023-11-26'),
 (81, '¿Cuál propiedad CSS se utiliza para establecer el margen derecho de un elemento?', 0, 2, 5, 0, 0, 1, '2023-11-26'),
 (82, '¿Cuál propiedad CSS se utiliza para alinear un elemento al centro horizontalmente?', 0, 2, 5, 0, 0, 1, '2023-11-26'),
 (83, '¿Cuál propiedad CSS se utiliza para crear una sombra alrededor de un elemento?', 0, 2, 5, 0, 0, 1, '2023-11-26');
@@ -359,7 +364,7 @@ INSERT INTO `usuario` (`Id`, `nombre_usuario`, `mail`, `contrasenia`, `puntaje_m
 (4, 'Ivan', '', '202cb962ac59075b964b07152d234b70', 0, 1, 1, '', '2023-11-26', '', 3, 0, 0, '2023-11-26', ''),
 (6, 'admin', 'admin@admin.com', '202cb962ac59075b964b07152d234b70', 0, 1, 1, 'Admin Perfil', '2000-11-18', 'Masculino', 1, 0, 0, '2023-11-26', ''),
 (7, 'editor', 'editor@editor.com', '202cb962ac59075b964b07152d234b70', 0, 2, 1, 'Editor Perfil', '2000-11-18', 'Masculino', 1, 0, 0, '2023-11-26', ''),
-(14, 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 50, 3, 1, 'Ivan Carreño', '2000-11-18', 'Masculino', 1, 0, 0, '2023-11-27', 'prueba.jpg');
+(15, 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 6, 3, 0, 'Ivan Carreño', '2000-11-18', 'Masculino', 1, 0, 0, '2023-11-27', 'prueba.jpg');
 
 --
 -- Índices para tablas volcadas
@@ -440,7 +445,7 @@ ALTER TABLE `pais`
 -- AUTO_INCREMENT de la tabla `partida`
 --
 ALTER TABLE `partida`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=728;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=733;
 
 --
 -- AUTO_INCREMENT de la tabla `pregunta`
@@ -458,7 +463,7 @@ ALTER TABLE `respuesta`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- Restricciones para tablas volcadas

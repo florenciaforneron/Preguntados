@@ -74,7 +74,7 @@ class partidaModel{
         $var=$this->database->query($sql);
         return $var[0]['id'];
     }
-    public function reportarPreguntaModel($idPregunta): bool{
+    public function reportarPregunta($idPregunta): bool{
         $sql="UPDATE pregunta SET id_estado = 3 WHERE id = '$idPregunta'";
         if($this->consultarSiLaPreguntaEstaReportada($idPregunta)){
             $this->database->query($sql);
@@ -174,5 +174,16 @@ class partidaModel{
             $sql1 = "UPDATE usuario SET novato=FALSE WHERE  nombre_usuario = '$us'";
         }
         $this->database->update($sql1);
+    }
+
+    public function getPuntajeMaxJugador($usuario){
+        $query = "SELECT puntaje_max FROM usuario WHERE nombre_usuario = '$usuario'";
+        $var = $this->database->singleQuery($query);
+        return $var['puntaje_max'];
+    }
+
+    public function setPuntajeMaxJugador($usuario, $puntajeMax){
+        $query = "UPDATE usuario SET puntaje_max = '$puntajeMax' WHERE nombre_usuario = '$usuario'";
+        $this->database->update($query);
     }
 }
