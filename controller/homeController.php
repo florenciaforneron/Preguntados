@@ -106,7 +106,7 @@ class homeController {
         $mail->Subject = 'Validación de cuenta';
         $mail->isHTML(true);
         $enlace = 'https://localhost:80/validarCuenta.php?usuario=' . urlencode($usuario); // Enlace para validar cuenta
-        $mail->Body = 'Por favor, haz clic en este <a href="' . $enlace . '">enlace</a> para validar tu cuenta.';
+        $mail->Body = 'Por favor, haz clic en este <a href="' . $_SERVER['SERVER_NAME'] . '">enlace</a> para validar tu cuenta.';
 
         try {
             // Enviar correo
@@ -135,6 +135,8 @@ class homeController {
 
         }else Redirect::to("/home");
     }
+
+
 
     public function logout()
     {

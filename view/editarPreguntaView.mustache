@@ -9,28 +9,33 @@
         <form action="/editarPregunta/editar" method="post" enctype="multipart/form-data">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
-                    <div class="form-group">
                     {{#pregunta}}
-                        <input type="hidden" name="id" class="form-control" value="{{id}}">
+                    <div class="form-group">
+                        <input type="hidden" name="id" class="form-control" value="{{id_pregunta}}">
                         <label>Pregunta</label>
                         <input required name="descripcion" class="form-control" value="{{descripcion}}">
                     </div>
+
                     <div class="form-group">
                         <label>Respuesta A</label>
                         <input required name="opcionA" class="form-control" value="{{A}}">
                     </div>
+
                     <div class="form-group">
                         <label>Respuesta B</label>
                         <input required name="opcionB" class="form-control" value="{{B}}">
                     </div>
+
                     <div class="form-group">
                         <label>Respuesta C</label>
                         <input required name="opcionC" class="form-control" value="{{C}}">
                     </div>
+
                     <div class="form-group">
                         <label>Respuesta D</label>
                         <input required name="opcionD" class="form-control" value="{{D}}">
                     </div>
+
                     <div class="form-group">
                         <label>Categoria</label>
                         <select name="id_categoria" class="form-control" required>
@@ -42,6 +47,7 @@
                             <option value="5">Estilos en CSS</option>
                         </select>
                     </div>
+
                     <div class="form-group">
                         <label>Respuesta correcta</label>
                         <select name="opcionCorrecta" class="form-control" required>
@@ -52,11 +58,11 @@
                             <option value="D">D</option>
                         </select>
                     </div>
-                        <div class="d-flex justify-content-center">
-                            <br>
-                            <a href="/lobby" class="btn btn-primary m-3">Volver al lobby</a>
-                            <button type="submit" class="btn btn-primary m-3">Guardar cambios</button>
                     {{/pregunta}}
+                    <div class="d-flex justify-content-center">
+                        <br>
+                        <a href="/lobby" class="btn btn-primary m-3">Volver al lobby</a>
+                        <button type="submit" class="btn btn-primary m-3">Guardar cambios</button>
                     </div>
                 </div>
             </div>

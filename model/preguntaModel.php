@@ -14,15 +14,18 @@ class preguntaModel
     }
 
     public function getPreguntasSugeridas(){
-        return $this->database->query("SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 1");
+        return $this->database->query("SELECT p.id AS id_pregunta, p.descripcion, r.A, r.B, r.C, r.D, r.opcionCorrecta, c.categoria  
+        FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id_estado = 1");
     }
 
     public function getPreguntasAceptadas(){
-        return $this->database->query("SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 2");
+        return $this->database->query("SELECT p.id AS id_pregunta, p.descripcion, r.A, r.B, r.C, r.D, r.opcionCorrecta, c.categoria  
+        FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id_estado = 2");
     }
 
     public function getPreguntasReportadas(){
-        return $this->database->query("SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3");
+        return $this->database->query("SELECT p.id AS id_pregunta, p.descripcion, r.A, r.B, r.C, r.D, r.opcionCorrecta, c.categoria  
+        FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id_estado = 3");
     }
 
     public function buscarPreguntaPorDescripcion($descripcion){
@@ -30,7 +33,8 @@ class preguntaModel
     }
 
     public function buscarPreguntaPorId($id){
-        return $this->database->query("SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '$id'");
+        return $this->database->query("SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id = r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk
+                                        WHERE p.id = '$id' AND r.id_pregunta = '$id'");
     }
 
     public function aceptarPregunta($id){
