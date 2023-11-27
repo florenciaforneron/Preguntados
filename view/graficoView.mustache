@@ -1,0 +1,98 @@
+<main class="py-5">
+    <article class="content container px-lg-5 p-4 bg-light rounded-3">
+        <div class="d-flex">
+            <h1 class="col-11 fw-bold display-5"> Estadisticas de usuarios</h1>
+            <a href="/admin/graficoJugadoresPdf" class="btn btn-primary btn-lg col-1 fw-bold">
+                <i class="fa-solid fa-file-arrow-down"></i> PDF
+            </a>
+        </div>
+        <br>
+        <article class="mx-auto">
+            <div class="text-center">
+                <div class="text-center">
+                    <h2 class="table-title">Total de jugadores</h2>
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>Cantidad</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>{{jugadoresTotales}}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <br>
+                <h2 class="table-title">Usuarios por género</h2>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Género</th>
+                        <th>Cantidad de Usuarios</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {{#usuariosPorGenero}}
+                        <tr>
+                            <td>{{sexo}}</td>
+                            <td>{{cantidad_usuarios}}</td>
+                        </tr>
+                    {{/usuariosPorGenero}}
+                    </tbody>
+                </table>
+                <img src="/{{imagePathGenre}}" alt="Gráfico de pastel de usuarios por género">
+            </div>
+            <br>
+            <br>
+            <div class="text-center">
+                <h2 class="table-title">Usuarios por país</h2>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>País</th>
+                        <th>Cantidad de Usuarios</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {{#usuariosPorPais}}
+                        <tr>
+                            <td>{{Pais}}</td>
+                            <td>{{cantidadUsuarios}}</td>
+                        </tr>
+                    {{/usuariosPorPais}}
+                    </tbody>
+                </table>
+                <img src="/{{imagePathCountry}}" alt="Gráfico de usuarios por país">
+            </div>
+            <br>
+            <br>
+            <div class="text-center">
+                <h2 class="table-title">Usuarios por edad</h2>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Edad</th>
+                        <th>Cantidad de Usuarios</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {{#usuariosPorEdad}}
+                        <tr>
+                            <td>{{grupo_edad}}</td>
+                            <td>{{cantidad_usuarios}}</td>
+                        </tr>
+                    {{/usuariosPorEdad}}
+                    </tbody>
+                </table>
+                <img src="/{{imagePathAge}}" alt="Gráfico de usuarios por país">
+            </div>
+        </article>
+        <div class="d-flex justify-content-center">
+            <br>
+            <a href="/lobby" class="btn btn-lg btn-primary m-3">Volver al lobby</a>
+        </div>
+    </article>
+</main>

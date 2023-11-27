@@ -8,15 +8,25 @@
 </head>
 <body>
 
-    <div class="card col-md-6 container text-center mt-5 mb-5">
+    <div class="card col-md-6 container text-center mt-5 mb-5 justify-content-center align-items-center">
         <div class="card-header">
             Informacion del usuario
+        </div>
+        <div class="col-md-5 d-flex ">
+            {{#Foto_perfil}}
+                <img src="/public/imagenes/{{foto_perfil}}" class="m-0 rounded" style="max-width: 100%; width: 100%;"
+                     alt="Foto de perfil">
+            {{/Foto_perfil}}
         </div>
         <div class="card-body">
             <blockquote class="blockquote mb-0">
                 {{#infoUsuario}}
-                    <h4>Nombre del Usuario: {{nombre_usuario}}</h4>
-                    <h4>Puntos maximo alcanzado: {{puntaje_max}}</h4>
+                    <h4>Usuario: {{usuario}}</h4>
+                    <h4>Nombre: {{nombre_completo}}</h4>
+                    <h4>Edad: {{edad}}</h4>
+                    <h4>Genero: {{genero}}</h4>
+                    <h4>Pais: {{pais}}</h4>
+                    <h4>Puntos maximo alcanzado: {{puntaje_maximo}}</h4>
                 {{/infoUsuario}}
             </blockquote>
         </div>

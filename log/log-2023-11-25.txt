@@ -1,0 +1,78 @@
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta WHERE descripcion = '¿Cuál es la montaña más alta del mundo?' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 2 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 1 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 2 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 2 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 1 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 2 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 2 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 2 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 2 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 2 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 2 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 2 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 2 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta WHERE id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta WHERE id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta WHERE id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 1 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 1 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 2 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 2 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE p.id = '2' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id=r.id_pregunta JOIN categoria AS c ON c.id_categoria = p.id_categoria_fk WHERE id_estado = 3 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-25][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 

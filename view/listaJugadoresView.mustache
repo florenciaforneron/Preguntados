@@ -1,0 +1,83 @@
+<main class="py-5">
+    <div class="content container px-lg-5 p-4 bg-light rounded-3">
+        <h1 class="col-11 fw-bold display-5"> Usuarios</h1>
+    <article class="mx-auto">
+        <br>
+        {{^empty}}
+            <form action="/admin/usuariosTotales" method="post" enctype="multipart/form-data" class="row g-3">
+                <div class="col-3 d-flex">
+                    <label for="fecha_inicial" class="col-form-label">Fecha inicio</label>
+                    <input required type="date" id="fecha_inicial" name="fecha_inicial" class="form-control">
+                </div>
+                <div class="col-3 d-flex">
+                    <label for="fecha_final" class="col-form-label">Fecha final</label>
+                    <input required type="date" id="fecha_final" name="fecha_final" class="form-control">
+                </div>
+                <div class="col-2 d-flex align-items-end">
+                    <input type="submit" value="Filtrar" class="btn btn-primary m-2">
+                </div>
+                <div class="col-4 d-flex align-items-end justify-content-end">
+                    <a href="/admin/totalJugadoresPdf" class="btn btn-primary m-1">
+                        <i class="fa-solid fa-file-arrow-down"></i> PDF
+                    </a>
+                    <a href="/admin/graficoDeJugadores" class="btn btn-primary m-1">Estadisticas</a>
+                </div>
+            </form>
+            <br>
+            <div class="d-flex">
+                <h4 class="col-10">Total encontrados: {{jugadoresTotales}} </h4>
+            </div>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre de Usuario</th>
+                    <th>Email</th>
+                    <th>Género</th>
+                    <th>Fecha de Nac.</th>
+                    <th>Fecha registro</th>
+                    <th>Respuestas correctas</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#todosLosJugadores}}
+                    <tr>
+                        <td>{{Id}}</td>
+                        <td>{{nombre_usuario}}</td>
+                        <td>{{mail}}</td>
+                        <td>{{sexo}}</td>
+                        <td>{{fecha_nacimiento}}</td>
+                        <td>{{fecha_registro}}</td>
+                        <td>{{veces_bien}}%</td>
+                    </tr>
+                {{/todosLosJugadores}}
+                </tbody>
+                {{^todosLosJugadores}}
+                    <tr>
+                        <td colspan="7 " class="text-center fw-bold display-5"> No hay jugadores</td>
+                    </tr>
+                {{/todosLosJugadores}}
+            </table>
+        </article>
+        {{/empty}}
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="?pagina={{previous}}">Previous</a>
+                </li>
+                {{#paginas}}
+                    <li class="page-item">
+                        <a class="page-link {{#esActual}}active{{/esActual}}" href="?pagina={{numero}}">{{numero}}</a>
+                    </li>
+                {{/paginas}}
+                <li class="page-item">
+                    <a class="page-link" href="?pagina={{next}}">Next</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="d-flex justify-content-center">
+            <br>
+            <a href="/lobby" class="btn btn-lg btn-primary m-3">Volver al lobby</a>
+        </div>
+    </div>
+</main>

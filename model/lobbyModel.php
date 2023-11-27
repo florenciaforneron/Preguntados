@@ -23,7 +23,7 @@ class lobbyModel
     public function getRanking(){
         //$sql="SELECT * FROM partida WHERE puntaje = (SELECT MAX(puntaje) FROM partida)";
         //$sql="SELECT * FROM partida ORDER BY puntaje DESC";
-        $sql="SELECT * FROM usuario ORDER BY puntaje_max DESC";
+        $sql="SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC";
         $resultado=$this->database->query($sql);
         return $resultado;
     }

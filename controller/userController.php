@@ -21,7 +21,9 @@ class userController
 
     public function verPerfilDeUsuario(){
         $usuario = $_POST['nombre_usuario'];
-        $data=['infoUsuario'=>$this->model->datosDelUsuario($usuario)];
+
+        $data=['infoUsuario'=>$this->model->datosDelUsuario($usuario),
+                'Foto_perfil'=>$this->model->getFotoPerfil($usuario)];
         $this->render->printView('user', $data);
     }
 

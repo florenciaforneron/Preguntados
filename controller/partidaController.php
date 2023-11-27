@@ -26,7 +26,7 @@ class partidaController{
                 $this->cerrarPartida();
             }
                 $_SESSION['flag']=1;
-                $data=['preguntas'=>$this->model->getPreguntas(),'countdown'=>10];$_SESSION['puntaje']=0;
+                $data=['preguntas'=>$this->model->getPregunta(),'countdown'=>10];$_SESSION['puntaje']=0;
                 $_SESSION['idDePregunta'] = $data['preguntas']['id'];
                 if ($data['preguntas']==NULL) {
                     $this->model->resetearPartida();
@@ -49,7 +49,7 @@ class partidaController{
         $respuestaCorrecta=$this->model->traerRespuestaCorrecta($idPregunta);
 
         if($respuestaSeleccionada==$respuestaCorrecta){
-            $this->model->sumarRespuestaCorrecta($idPregunta);
+            $this->model->sumarRespuestaCorrectaPregunta($idPregunta);
 
             if($this->verificarIdDePregunta($idPregunta)){
                 $this->cerrarPartida();
@@ -58,7 +58,7 @@ class partidaController{
             $_SESSION['puntaje']+=1;
             $this->siguientePregunta();
         }else {
-            $this->model->sumarRespuestaIncorrecta($idPregunta);
+            $this->model->sumarRespuestaIncorrectaPregunta($idPregunta);
             $this->cerrarPartida();
         }
     }
@@ -80,7 +80,7 @@ class partidaController{
         if (!isset($_SESSION["usuario"])) {
             Redirect::to("/home");
         }else{
-            $data=['preguntas'=>$this->model->getPreguntas(),'countdown'=>10];
+            $data=['preguntas'=>$this->model->getPregunta(),'countdown'=>10];
             $_SESSION['idDePregunta'] = $data['preguntas']['id'];
             $this->render->printView('partida', $data);
         }

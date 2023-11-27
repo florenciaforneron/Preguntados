@@ -13,26 +13,35 @@ class homeModel {
         return $result;
     }
 
-    public function alta($contrasenia, $usuario) {
-        $sql = "INSERT INTO `usuario` ( `nombre_usuario`, `contrasenia`) VALUES ( '$usuario', '$contrasenia');";
+    public function alta($contrasenia, $usuario, $mail, $nombreCompleto, $fecha_nacimiento, $nacionalidad, $sexo, $imagen) {
+        $hashedPassword = md5($contrasenia);
+        $sql = "INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( '$usuario', '$mail', '$hashedPassword', '$nombreCompleto', '$fecha_nacimiento', '$sexo', '$nacionalidad', CURRENT_TIMESTAMP, '$imagen');";
         Logger::info('usuario alta: ' . $sql);
 
         $this->database->query($sql);
     }
 
-    public function login($usuario, $contrasenia){
-        $sql = "SELECT * FROM 'usuario' WHERE 'nombre_usuario' = '$usuario' AND 'contrasenia' = '$contrasenia'";
-        Logger::info('Usuarios que coinciden: '. $sql);
+    public function validarUsuario($mail, $usuario_validado) {
+        $sql = "SELECT `usuario_validado`, `mail` FROM 'usuario' WHERE 'mail' = '$mail' and 'usuario_validado'='$usuario_validado'";
+        Logger::info('Validacion usuario: ' . $sql);
 
+        $this->database->query($sql);
+    }
+
+    public function login($usuario, $contrasenia){
+        $hashedPassword = md5($contrasenia);
+        $sql = "SELECT * FROM 'usuario' WHERE 'nombre_usuario' = '$usuario' AND 'contrasenia' = '$hashedPassword'";
+        Logger::info('Usuarios que coinciden: '. $sql);
 
         $this->database->query($sql);
 
-
     }
 
-    public function usuarioPorNombreYContrasenia($user, $pass)
+    public function usuarioPorNombreYContrasenia($usuario, $contrasenia)
     {
-        return $this->database->query("SELECT * FROM usuario WHERE nombre_usuario = '$user' and contrasenia = '$pass'");
+        $hashedPassword = md5($contrasenia);
+        return $this->database->query("SELECT * FROM usuario WHERE nombre_usuario = '$usuario' and contrasenia = '$hashedPassword'");
     }
 
     public function getIdRolPorUsuario($user){

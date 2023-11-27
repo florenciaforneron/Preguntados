@@ -1,0 +1,1011 @@
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 
+[2023-11-26][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `contrasenia`) VALUES ( 'Ivan', '123');
+[2023-11-26][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `contrasenia`) VALUES ( 'Ivan', '123'); 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' and contrasenia = '123' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' and contrasenia = '123' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, Fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, Fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, Fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND Fecha_registro >= '2023-01-01' AND Fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' and contrasenia = '123' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' and contrasenia = '123' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' and contrasenia = '123' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, Fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, Fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, Fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND Fecha_registro >= '2023-01-01' AND Fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT Genero, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY Genero 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT Sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY Sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT Sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY Sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT Sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY Sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT Sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY Sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`) VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'masculino', '1', CURRENT_TIMESTAMP);
+[2023-11-26][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`) VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'masculino', '1', CURRENT_TIMESTAMP); 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT Sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY Sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT Sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY Sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT Sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY Sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT Sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY Sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida WHERE fecha >= '2023-01-01' AND fecha <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida WHERE fecha >= '2023-01-01' AND fecha <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida LIMIT 22 OFFSET 572 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida LIMIT 22 OFFSET 660 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida WHERE fecha >= '2023-01-01' AND fecha <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM pregunta p WHERE p.fecha_creacion >= '2023-01-01' AND p.fecha_creacion <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM pregunta p LIMIT 22 OFFSET 44 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM pregunta p LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id = r.id_pregunta LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id = r.id_pregunta LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id = r.id_pregunta LIMIT 22 OFFSET 22 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id = r.id_pregunta LIMIT 22 OFFSET 0 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           [2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida WHERE fecha >= '2023-01-01' AND fecha <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id = r.id_pregunta WHERE p.fecha_creacion >= '2023-01-01' AND p.fecha_creacion <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida WHERE fecha >= '2023-01-01' AND fecha <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida WHERE fecha >= '2023-01-01' AND fecha <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id = r.id_pregunta WHERE p.fecha_creacion >= '2023-01-01' AND p.fecha_creacion <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida WHERE fecha >= '2023-01-01' AND fecha <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id = r.id_pregunta WHERE p.fecha_creacion >= '2023-01-01' AND p.fecha_creacion <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida WHERE fecha >= '2023-01-01' AND fecha <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id = r.id_pregunta WHERE p.fecha_creacion >= '2023-01-01' AND p.fecha_creacion <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida WHERE fecha >= '2023-01-01' AND fecha <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida WHERE fecha >= '2023-01-01' AND fecha <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM partida WHERE fecha >= '2023-01-01' AND fecha <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+               AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+               AND u.fecha_registro >= '2023-01-01' AND u.fecha_registro <= '2023-12-12'  GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 AND fecha_registro >= '2023-01-01' AND fecha_registro <= '2023-12-12'  LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT
+                CASE
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) < 18 THEN 'Menor (-18)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) BETWEEN 18 AND 64 THEN 'Adulto (18 a 64)'
+                    WHEN TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) >= 65 THEN 'Jubilado (+65)'
+                END AS grupo_edad,
+                COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3 
+                GROUP BY grupo_edad 
+[2023-11-26][INFO]Ejecutando Query SELECT sexo, COUNT(*) AS cantidad_usuarios
+              FROM usuario WHERE id_rol =3
+                GROUP BY sexo 
+[2023-11-26][INFO]Ejecutando Query SELECT p.nombre AS Pais, COUNT(u.Id) AS cantidad_usuarios
+              FROM usuario AS u
+              JOIN pais AS p ON u.id_pais = p.id WHERE id_rol =3
+                GROUP BY p.nombre 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id = r.id_pregunta WHERE p.fecha_creacion >= '2023-01-01' AND p.fecha_creacion <= '2023-12-12' LIMIT 22 OFFSET 0 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Ivan' 
+[2023-11-26][INFO]Ejecutando Query SELECT * FROM pregunta AS p JOIN respuesta AS r ON p.id = r.id_pregunta WHERE p.fecha_creacion >= '2023-01-01' AND p.fecha_creacion <= '2023-12-12' LIMIT 22 OFFSET 0 

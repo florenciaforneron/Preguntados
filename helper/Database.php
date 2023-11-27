@@ -34,5 +34,10 @@ class Database {
     {
         $result = mysqli_query($this->conn, $sql);
     }
+    public function print($sql)
+    {
+        $result = mysqli_query($this->conn, $sql);
+        return mysqli_fetch_all($result, MYSQLI_ASSOC);
+    }
 
 }

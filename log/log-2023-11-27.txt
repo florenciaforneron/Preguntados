@@ -1,0 +1,897 @@
+[2023-11-27][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`) VALUES ( 'admin', 'admin@admin.com', '202cb962ac59075b964b07152d234b70', 'Admin Perfil', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP);
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`) VALUES ( 'admin', 'admin@admin.com', '202cb962ac59075b964b07152d234b70', 'Admin Perfil', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP); 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'admin' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'admin' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'admin' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'admin' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'admin' 
+[2023-11-27][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`) VALUES ( 'editor', 'editor@editor.com', '202cb962ac59075b964b07152d234b70', 'Editor Perfil', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP);
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`) VALUES ( 'editor', 'editor@editor.com', '202cb962ac59075b964b07152d234b70', 'Editor Perfil', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP); 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'editor' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'editor' 
+[2023-11-27][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`) VALUES ( '11', '11@11.com', '202cb962ac59075b964b07152d234b70', '11', '2000-01-01', 'Masculino', '1', CURRENT_TIMESTAMP);
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`) VALUES ( '11', '11@11.com', '202cb962ac59075b964b07152d234b70', '11', '2000-01-01', 'Masculino', '1', CURRENT_TIMESTAMP); 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = '11' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-27][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, );
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, ); 
+[2023-11-27][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, '');
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, ''); 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-27][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, '');
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, ''); 
+[2023-11-27][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, '');
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, ''); 
+[2023-11-27][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, '');
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, ''); 
+[2023-11-27][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, '');
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, ''); 
+[2023-11-27][INFO]usuario alta: INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, 'prueba.jpg');
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `usuario` ( `nombre_usuario`, `mail`,  `contrasenia`, `nombreCompleto`, `fecha_nacimiento`, `sexo`, `id_pais`, `fecha_registro`, `foto_perfil`) 
+                VALUES ( 'aivan', 'ivancarr03@gmail.com', '202cb962ac59075b964b07152d234b70', 'Ivan Carreño', '2000-11-18', 'Masculino', '1', CURRENT_TIMESTAMP, 'prueba.jpg'); 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    DATEDIFF(YEAR(u.fecha_nacimiento, CURRENT_TIMESTAMP)) AS edad, u.sexo AS genero,
+                    u.foto_perfil AS foto_perfil, p.nombre AS pais, par.puntaje, par.fecha AS fecha_partida
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id JOIN partida AS par ON u.id=par.id_usuario WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    DATEDIFF(YEAR(u.fecha_nacimiento, CURDATE())) AS edad, u.sexo AS genero,
+                    u.foto_perfil AS foto_perfil, p.nombre AS pais, par.puntaje, par.fecha AS fecha_partida
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id JOIN partida AS par ON u.id=par.id_usuario WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR(u.fecha_nacimiento, CURDATE())) AS edad, u.sexo AS genero,
+                    u.foto_perfil AS foto_perfil, p.nombre AS pais, par.puntaje, par.fecha AS fecha_partida
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id JOIN partida AS par ON u.id=par.id_usuario WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero,
+                    u.foto_perfil AS foto_perfil, p.nombre AS pais, par.puntaje, par.fecha AS fecha_partida
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id JOIN partida AS par ON u.id=par.id_usuario WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero,
+                    u.foto_perfil AS foto_perfil, p.nombre AS pais, par.puntaje, par.fecha AS fecha_partida
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id JOIN partida AS par ON u.id=par.id_usuario WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero,
+                    u.foto_perfil AS foto_perfil, p.nombre AS pais, par.puntaje, par.fecha AS fecha_partida
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id JOIN partida AS par ON u.id=par.id_usuario WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero,
+                    u.foto_perfil AS foto_perfil, p.nombre AS pais, par.puntaje, par.fecha AS fecha_partida
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id JOIN partida AS par ON u.Id=par.id_usuario WHERE u.nombre_usuario = 'Emma' AND u.Id = par.id_usuario 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero,
+                    u.foto_perfil AS foto_perfil, p.nombre AS pais, par.puntaje, par.fecha AS fecha_partida
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id JOIN partida AS par ON u.Id=par.id_usuario WHERE u.nombre_usuario = 'aivan' AND u.Id = par.id_usuario 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero,
+                    u.foto_perfil AS foto_perfil, p.nombre AS pais, par.puntaje, par.fecha AS fecha_partida
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id JOIN partida AS par ON u.Id=par.id_usuario WHERE u.nombre_usuario = 'Emma' AND u.Id = par.id_usuario 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero,
+                    u.foto_perfil AS foto_perfil, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero,
+                    u.foto_perfil AS foto_perfil, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero,
+                    u.foto_perfil AS foto_perfil, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero,
+                    u.foto_perfil AS foto_perfil, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' and contrasenia = '202cb962ac59075b964b07152d234b70' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'aivan' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Manu' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-27][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '56' 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '51' 
+[2023-11-27][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 3, current_timestamp()); 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT u.nombre_usuario AS usuario, u.nombreCompleto AS nombre_completo, u.puntaje_max AS puntaje_maximo, 
+                    TIMESTAMPDIFF(YEAR, fecha_nacimiento, CURDATE()) AS edad, u.sexo AS genero, p.nombre AS pais
+                FROM usuario AS u JOIN pais AS p ON u.id_pais = p.id WHERE u.nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT foto_perfil FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-27][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 1, current_timestamp()); 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '54' 
+[2023-11-27][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 0, current_timestamp()); 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '60' 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-27][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 1, current_timestamp()); 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '5' 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '2' 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '55' 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '4' 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '9' 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '59' 
+[2023-11-27][INFO]Ejecutando Query SELECT usuario.* FROM usuario WHERE usuario.nombre_usuario LIKE 'Emma' AND usuario.novato IS TRUE 
+[2023-11-27][INFO]Ejecutando Query SELECT opcionCorrecta FROM respuesta WHERE id_pregunta = '61' 
+[2023-11-27][INFO]Ejecutando Query SELECT id FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query INSERT INTO `partida` (`id_usuario`, `puntaje`, `fecha`) VALUES ('1', 6, current_timestamp()); 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Emma' 
+[2023-11-27][INFO]Ejecutando Query SELECT * FROM usuario WHERE id_rol = 3 ORDER BY puntaje_max DESC 

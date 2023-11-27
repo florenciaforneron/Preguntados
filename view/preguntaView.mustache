@@ -13,9 +13,12 @@
             <table class="table table-striped">
                 <thead>
                 <tr>
+                    <th>Categoria</th>
                     <th>Pregunta</th>
                     <th>A</th>
                     <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
                     <th>Correcta</th>
                     <th>Accion a realizar</th>
                 </tr>
@@ -26,9 +29,12 @@
                 <!-- Preguntas sugeridas -->
                 {{#preguntasSugeridas}}
                     <tr>
+                        <td>{{categoria}}</td>
                         <td>{{descripcion}}</td>
                         <td>{{A}}</td>
                         <td>{{B}}</td>
+                        <td>{{C}}</td>
+                        <td>{{D}}</td>
                         <td>{{opcionCorrecta}}</td>
                         <td>
 
@@ -61,9 +67,12 @@
                 <!-- Preguntas reportadas -->
                 {{#preguntasReportadas}}
                     <tr>
+                        <td>{{categoria}}</td>
                         <td>{{descripcion}}</td>
                         <td>{{A}}</td>
                         <td>{{B}}</td>
+                        <td>{{C}}</td>
+                        <td>{{D}}</td>
                         <td>{{opcionCorrecta}}</td>
                         <td>
 
@@ -96,9 +105,12 @@
                 <!-- Preguntas aceptadas -->
                 {{#preguntasAceptadas}}
                     <tr>
+                        <td>{{categoria}}</td>
                         <td>{{descripcion}}</td>
                         <td>{{A}}</td>
                         <td>{{B}}</td>
+                        <td>{{C}}</td>
+                        <td>{{D}}</td>
                         <td>{{opcionCorrecta}}</td>
                         <td>
 

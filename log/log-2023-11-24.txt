@@ -1,0 +1,2 @@
+[2023-11-24][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' and contrasenia = '123' 
+[2023-11-24][INFO]Ejecutando Query SELECT * FROM usuario WHERE nombre_usuario = 'Lucas' 

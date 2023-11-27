@@ -22,18 +22,22 @@ class sugerirPreguntaController
 
     public function agregarPregunta(){
 
-        if (!isset($_POST['descripcion']) || !isset($_POST['opcionA']) || !isset($_POST['opcionB']) || !isset($_POST['respuestaCorrecta'])) {
+        if (!isset($_POST['descripcion']) || !isset($_POST['opcionA']) || !isset($_POST['opcionB']) || !isset($_POST['opcionC']) || !isset($_POST['opcionD'])
+            || !isset($_POST['respuestaCorrecta']) || !isset($_POST['idCategoria'])) {
             $_SESSION["error"] = "Error: Todos los campos son obligatorios";
         }
 
         $descripcion = $_POST['descripcion'];
         $opcionA = $_POST['opcionA'];
         $opcionB = $_POST['opcionB'];
+        $opcionC = $_POST['opcionC'];
+        $opcionD = $_POST['opcionD'];
         $respuestaCorrecta = $_POST['respuestaCorrecta'];
+        $categoria = $_POST['idCategoria'];
 
 
         if(!$this->model->buscarPreguntaPorDescripcion($descripcion)){
-            $this->model->agregarPregunta($_SESSION['idRol'], $descripcion, $opcionA, $opcionB, $respuestaCorrecta);
+            $this->model->agregarPregunta($_SESSION['idRol'], $descripcion, $opcionA, $opcionB, $opcionC, $opcionD, $respuestaCorrecta, $categoria);
 
             if($_SESSION['idRol'] == 3) {
                 $this->render->printView('nuevaPreguntaSugerida');

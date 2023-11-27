@@ -13,12 +13,15 @@ include_once('controller/partidaController.php');
 include_once('controller/userController.php');
 include_once('controller/sugerirPreguntaController.php');
 include_once('controller/preguntaController.php');
+include_once('controller/editarPreguntaController.php');
+include_once('controller/adminController.php');
 
 include_once("model/homeModel.php");
 include_once("model/lobbyModel.php");
 include_once("model/partidaModel.php");
 include_once("model/userModel.php");
 include_once("model/preguntaModel.php");
+include_once("model/adminModel.php");
 
 include_once('third-party/mustache/src/Mustache/Autoloader.php');
 
@@ -69,6 +72,16 @@ class Configuracion {
     public function getPreguntaController(){
         $model = new preguntaModel($this->getDatabase());
         return new preguntaController($this->getRender(), $model);
+    }
+
+    public function getEditarPreguntaController(){
+        $model = new preguntaModel($this->getDatabase());
+        return new editarPreguntaController($this->getRender(), $model);
+    }
+
+    public function getAdminController(){
+        $model = new adminModel($this->getDatabase());
+        return new adminController($this->getRender(), $model);
     }
 
 
